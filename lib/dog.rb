@@ -49,4 +49,6 @@ class Dog
     }
     self.new(attributes_hash)
   end 
+  
+  self.find_by_id
 end 
