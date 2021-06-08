@@ -51,5 +51,5 @@ class Dog
   end 
   
   self.find_by_id(id)
-    sql = "SELECT * FROM dogs where id = ?"
+    sql = "SELECT * FROM dogs WHERE id = ?"
 end 
