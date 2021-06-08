@@ -71,7 +71,7 @@ class Dog
   end 
   
   def find_or_create_by(name:, breed:)
-    dog = 
+    dog = DB[:conn].execute(sql, )
   
   def update
     sql = <<-SQL
