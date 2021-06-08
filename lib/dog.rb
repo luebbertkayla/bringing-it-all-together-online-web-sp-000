@@ -70,7 +70,8 @@ class Dog
     end.first
   end 
   
-  def find_or_create_by
+  def find_or_create_by(name:, breed:)
+    
   
   def update
     sql = <<-SQL
