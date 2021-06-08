@@ -50,5 +50,6 @@ class Dog
     self.new(attributes_hash)
   end 
   
-  self.find_by_id
+  self.find_by_id(id)
+    
 end 
