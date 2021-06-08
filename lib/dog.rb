@@ -62,5 +62,5 @@ class Dog
   
   def update
     sql = <<-SQL
-      UPDATE dogs WHERE 
+      UPDATE dogs SET 
 end 
